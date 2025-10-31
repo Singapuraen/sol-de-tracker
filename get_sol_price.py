@@ -2,7 +2,7 @@ import requests
 import json
 
 # 1. Define the API endpoint (CoinGecko is free and easy)
-API_URL = "https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd"
+API_URL = "https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=sgd"
 
 # 2. Make the API request
 response = requests.get(API_URL)
